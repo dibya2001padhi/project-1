@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+  (function(){
+    emailjs.init("RqhjYkXhh-LKli2k1"); // Replace 'YOUR_USER_ID' with your EmailJS user ID
+  })();
+</script>
+</head>
+<body>
+    <header  id="header" class="header">
+        <a href="#" class="logo">Port<span>folio.</span></a>
+        
+        <nav id="menu" class="navbar">
+            <a href="#home_page" style="--i:1" class="active" >Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Services</a>
+            <a href="#my_skills" style="--i:4">Skills</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    </header>
+    <section id="home_page" class="home">
+        <div class="home-content">
+            <h3>Hello, My name is</h3>
+            <h1>Dibya Ranjan Padhi</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>I'm a passionate website developer with a love for creating engaging, responsive, and user-friendly websites. With a background in coding and content creation, I bring together both technical and creative skills to deliver unique digital experiences.</p>
+               <div class="home-sci">
+                <a href="https://www.facebook.com/dipun.dipun.942"style="--i:7"><i class='bx bxl-facebook'></i></a>
+                <a href="https://wa.me/6370364447?text= Hello..."style="--i:8"><i class='bx bxl-whatsapp' ></i></a>
+                <a href="https://www.linkedin.com/in/dibya-ranjan-padhi-613663254"style="--i:9"><i class='bx bxl-linkedin' ></i></a>
+                <a href="https://www.instagram.com/dipun5750"style="--i:10"><i class='bx bxl-instagram' ></i></a>
+                <a href="https://x.com/Dibyaranjan6648?t=zUCRpgCVZaFJK91CaUfyow&s=09"style="--i:11"><i class='bx bxl-twitter' ></i></a>
+               </div>
+               <a href="MyResume.pdf" download class="btn-box">Download Resume</a>
+               <a href="https://wa.me/6370364447?text= Hello..." class="btn-box">Let's Talk</a>
+        </div>
+    </section>
+    
+    <!-----------------------About------------------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/aboutimage.png" >
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About <span>Me</span></h1>
+                    <p>I am a passionate web developer with a strong enthusiasm for learning new technologies quickly. I love creating visually appealing and functional websites that enhance user experience. My curiosity and dedication to continuous improvement drive me to stay updated with the latest trends in web development, ensuring that I always deliver modern and efficient solutions. Whether it's front-end design or back-end functionality, I am committed to developing websites that not only meet but exceed expectations.</p>
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="open_tab('skills')">Skills</p>
+                        <p class="tab-links" onclick="open_tab('experience')">Experience</p>
+                        <p class="tab-links" onclick="open_tab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building android/iOS apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>Product Assembler at Genesis Medical System Pvt. Ltd.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018 - 2021</span><br>Bsc From Utkal University, Odisha</li>
+                            <li><span>2016 - 2018</span><br>+2(intermediate) from CHSE, Odisha</li>
+                            <li><span>2015 - 2016</span><br>10th from BSE, Odisha </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-----------------------Services------------------------->
+
+     <div id="services">
+    <div class="container2">
+        <h1 class="sub-title"> <span>My</span> Services</h1>
+        <div class="services-list">
+            <div>
+                <i class='bx bx-code-alt' style='color:#29f5f6'  ></i>
+                <h2>Web Design</h2>
+                <p>Custom website designing and web development.</p>
+                <p>Assistance with domain and web hosting.</p>
+                <a href="#" style="--i:12">Learn More</a>
+            </div>
+            <div>
+                <i class='bx bx-crop' style='color:#0efee5' ></i>
+                <h2>UI/UX Design</h2>
+                <p>Develop new user-facing features.</p>
+                <p>Build reusable code and libraries for future use.</p>
+                <a href="#" style="--i:13">Learn More</a>
+            </div>
+            <div>
+                <i class='bx bxl-android' style='color:#0efee5' ></i><span>/</span><i class='bx bxl-apple' style='color:#0efee5' ></i>
+                <h2>App Design</h2>
+                <p>Create custom iOS,Android & cross-platform 
+                    <br>application designs .</p>
+                <p>Create visually appealing and user-friendly interfaces.</p>
+                <a href="#" style="--i:14">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-----------------------Skills------------------------->
+
+
+<section id="my_skills" class="my_skills">
+<div class="main-text">
+    <h1 class="sub-title">My<span> Skills</span></h1>
+</div>
+<div class="skills-main">
+    <div class="skill-left">
+        <h3>Technical Skills</h3>
+        <div class="skill-bar">
+            
+            <div class="info">
+                <p><span><i class='bx bxl-html5' style='color:#fc9533'  ></i></span>HTML</p>
+                <span>72%</span>
+            </div>
+            <div class="bar">
+                <span class="html"></span>
+            </div>
+        </div>
+        <div class="skill-bar">
+            <div class="info">
+                <p><span><i class='bx bxl-css3' style='color:#1f44fa'  ></i></span>CSS</p>
+                <span>60%</span>
+            </div>
+            <div class="bar">
+                <span class="css"></span>
+            </div>
+        </div>
+        <div class="skill-bar">
+            <div class="info">
+                <p><span><i class='bx bxl-javascript' style='color:#d4df07'  ></i></span>JavaScript</p>
+                <span>50%</span>
+            </div>
+            <div class="bar">
+                <span class="javascript"></span>
+            </div>
+        </div>
+        <div class="skill-bar">
+            <div class="info">
+                <p><span><i class='bx bxl-python' style='color:#f92be4'  ></i></span>Python</p>
+                <span>55%</span>
+            </div>
+            <div class="bar">
+                <span class="python"></span>
+            </div>
+        </div>
+
+    </div>
+    <div class="skill-right">
+        <h3>Professional Skills</h3>
+            <div class="professional">
+                <div class="row2">
+                    <div class="box" data-percentage="75">
+                        <div class="circle">
+                            <div class="percentage">0%</div>
+                        </div>
+                        <p class="skill-name">Creativity</p>
+                    </div>
+                    <div class="box" data-percentage="85">
+                        <div class="circle">
+                            <div class="percentage">0%</div>
+                        </div>
+                        <p class="skill-name">Teamwork</p>
+                    </div>
+                </div>
+                <div class="row2">
+                    <div class="box" data-percentage="90">
+                        <div class="circle">
+                            <div class="percentage">0%</div>
+                        </div>
+                        <p class="skill-name">Communication</p>
+                    </div>
+                    <div class="box" data-percentage="60">
+                        <div class="circle">
+                            <div class="percentage">0%</div>
+                        </div>
+                        <p class="skill-name">Patience</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+ </div>
+ </div>
+</section>
+
+
+<!--------------------------------contact----------------------->
+
+<section id="contact">
+    <div class="contact-container">
+        <h1><span>Contact</span> Me</h1>
+      <p>Feel free to reach out through this form.</p>
+      <form id="contactForm">
+        <div class="form-group">
+          <input type="text" name="name" id="name" required data-emailjs="name">
+          <label for="name">Name</label>
+        </div>
+        <div class="form-group">
+          <input type="email" name="email" id="email" required data-emailjs="email">
+          <label for="email">Email</label>
+        </div>
+        <div class="form-group">
+          <textarea name="message" id="message" required data-emailjs="message"></textarea>
+          <label for="message">Message</label>
+        </div>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+<footer>
+    <div class="footer-content">
+      <h3>Dibya Ranjan Padhi</h3>
+      <p>Thank you for visiting my portfolio! Connect with me on social media.</p>
+      <div class="socials">
+        <a href="https://www.facebook.com/dipun.dipun.942"style="--i:7"><i class='bx bxl-facebook'></i></a>
+        <a href="https://wa.me/6370364447?text= Hello..."style="--i:8"><i class='bx bxl-whatsapp' ></i></a>
+        <a href="https://www.linkedin.com/in/dibya-ranjan-padhi-613663254"style="--i:9"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://www.instagram.com/dipun5750"style="--i:10"><i class='bx bxl-instagram' ></i></a>
+        <a href="https://x.com/Dibyaranjan6648?t=zUCRpgCVZaFJK91CaUfyow&s=09"style="--i:11"><i class='bx bxl-twitter' ></i></a>
+       </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Dibya Ranjan Padhi. All rights reserved.</p>
+    </div>
+  </footer>
+
+<script src="main.js"></script>
+</body>
+</html>
