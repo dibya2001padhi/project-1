@@ -2,7 +2,7 @@
 
 This repository contains the source code for my personal portfolio website, showcasing my skills, projects, and professional journey.
 
-*Live Demo*: [Visit My Portfolio]([https://dibya2001padhi.github.io/portfolio/](http://127.0.0.1:5500/index.html))
+*Live Demo*: [Visit My Portfolio](http://127.0.0.1:5500/index.html)
 
 ## Features
 - Fully responsive design
